@@ -871,7 +871,12 @@ video {
     display: none;
   }
   .text {
-    margin-left: 2%;
+    margin-left: 8vw;
+    width: 100%;
+
+  }
+  .loader {
+    padding: 40vh 10vw;
   }
   .text:nth-child(2) {
     margin-top: 17vh;
@@ -881,6 +886,7 @@ video {
     font-size: 9.8vw;
     text-transform: uppercase;
     line-height: 9.8vw;
+    /* margin-left: 3vw; */
     letter-spacing: 0.2vw;
   }
   .text h2 {
