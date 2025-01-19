@@ -26,10 +26,11 @@ html,
 body {
   height: 100%;
   width: 100%;
+  cursor: none;
 }
 .mousefollower {
-  border: 1.5px solid white;
-  scale: 2.5;
+  border: 2.5px solid white;
+  scale: 3.5;
   z-index: 99;
   background-color: rgb(255, 255, 255);
   mix-blend-mode: difference;
